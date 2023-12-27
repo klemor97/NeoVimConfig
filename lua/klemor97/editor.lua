@@ -1,17 +1,20 @@
 -- General
 vim.cmd("syntax on")
-vim.cmd("set nowrap")
 
-vim.cmd("set noswapfile")
-vim.cmd("set nobackup")
+vim.cmd("set nowrap")
 
 vim.cmd("set noerrorbells")
 
-vim.cmd("set incsearch")
-
 vim.cmd("set scrolloff=8")
 
--- Tabulation
+-- Swap - Backup
+vim.cmd("set noswapfile")
+vim.cmd("set nobackup")
+
+-- Search
+vim.cmd("set incsearch")
+
+-- Indentation - Tabs
 vim.cmd("set expandtab")
 vim.cmd("set tabstop=2")
 vim.cmd("set softtabstop=2")
