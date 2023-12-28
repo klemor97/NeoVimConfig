@@ -1,5 +1,3 @@
-require("klemor97.remap")
-
+require("klemor97.leader")
 require("klemor97.lazy")
-
 require("klemor97.editor")
